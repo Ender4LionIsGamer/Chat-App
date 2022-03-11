@@ -126,3 +126,11 @@
     overflow-y: scroll;
     height: 600px;
   }
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+   :root {
+       --body-bg: #000000;
+       --body-color: #FFFFFF;
+   }
+}
+
